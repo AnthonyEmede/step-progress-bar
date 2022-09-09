@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="progress">
+            <div id="progress-bar" class="progress-bar"></div>
+            <ul id="progress-num">
+                <li class="active stage">1</li>
+                <li class="stage">2</li>
+                <li class="stage">3</li>
+                <li class="stage">4</li>
+            </ul>
+        </div>
+
+        <div class="form-wrapper">
+            <form action="#">
+                <div class="first-page page">
+                    <div class="entry-space">
+                        <label for="name">Name: </label>
+                        <input type="text" value="" id="name">
+                    </div>
+                    <div class="entry-space">
+                        <label for="wife">Wife: </label>
+                        <input type="text" value="" id="wife">
+                    </div>
+                    <div class="entry-space">
+                        <button id="firstNext" class="firstNext nex">Next</button>
+                    </div>
+                </div>
+
+                <div class="second-page page">
+                    <div class="entry-space">
+                        <label for="sigil">Sigil:</label>
+                        <input type="text" value="" id="sigil">
+                    </div>
+                    <div class="entry-space">
+                        <label for="housewords">House words:</label>
+                        <input type="text" value="" id="housewords">
+                    </div>
+                    <div class="entry-space btns">
+                        <button class="prev1 prv">Previous</button>
+                        <button id="next1" class="next1 nex">Next</button>
+                    </div>
+                </div>
+
+                <div class="third-page page">
+                    <div class="entry-space">
+                        <label for="patriarch">Patriarch:</label>
+                        <input type="text" value="" id="patriarch">
+                    </div>
+                    <div class="entry-space">
+                        <label for="matriarch">Matriarch:</label>
+                        <input type="text" value="" id="matriarch">
+                    </div>
+                    <div class="entry-space btns">
+                        <button class="prev2 prv">Previous</button>
+                        <button class="next2 nex">Next</button>
+                    </div>
+                </div>
+
+                <div class="fourth-page page">
+                    <div class="entry-space">
+                        <label for="hand">Hand:</label>
+                        <input type="text" value="" id="hand">
+                    </div>
+                    <div class="entry-space">
+                        <label for="dragon">Dragon:</label>
+                        <input type="text" value="" id="dragon">
+                    </div>
+                    <div class="entry-space btns">
+                        <button class="prev3 prv">Previous</button>
+                        <button id="sub" class="submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
