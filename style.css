@@ -171,7 +171,7 @@ form .page .entry-space button.prv {
 
 @media only screen and (max-width: 380px) {
     .container {
-        width: 50vw;
+        width: 85vw;
         text-align: center;
         margin-top: 5%;
         padding-left: 25px;
