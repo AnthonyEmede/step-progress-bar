@@ -4,7 +4,7 @@ A step progress bar with pages that changes and also show the progress as the fo
 ## OVERVIEW
 
 ### Links
-- Live Site URL: ()
+- Live Site URL: (https://anthonyemede.github.io/step-progress-bar/?#)
 
 
 ## MY PROCESS
